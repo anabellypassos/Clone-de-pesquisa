@@ -1,0 +1,547 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+img{
+    height: 100%;
+ width: 100%;
+ object-fit: contain;
+
+}
+.Google{
+    flex-direction: row;
+    justify-content:left;
+    margin-right: 20px;
+    height:150px;
+ width: 150px;
+ margin-left: 15px;
+    
+}
+nav ul{
+    position: absolute;top: 30px; left: 1150px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    float: right;
+    height: 300px;
+    width: 300px;
+
+
+}
+nav li{
+    margin-right: 20px;
+    
+}	
+nav img{
+    height: 30px;
+
+}
+.icons {
+    display: flex;
+    margin-left: 30px;
+    position: absolute;top: 65px; left:680px;
+    list-style:none;
+   margin-left: 20px;
+   
+}
+
+
+.cabeçalhoimg2{
+    width: 20px;
+    height:20px;
+}
+.teclado{
+    width:20px;
+    height: 20px;
+}
+.voz{
+    width: 20px;
+    height: 20px;
+}
+.câmera{
+    width:20px;
+    height: 20px;
+}
+
+
+.idem {
+    padding: 15px;
+    border: 1px #b9b3b3 solid;
+    
+  }
+  .idem:nth-child(1){
+    width: 600px;
+    border-radius: 50px;
+    position: absolute;top:50px;left: 200px;
+  }
+ 
+
+  .idem:nth-child(1):focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  } 
+
+  .baixo{
+    cursor: pointer;
+    text-decoration:line-through;
+  } 
+ 
+
+
+.t{
+    list-style: none;
+    position: absolute;top: 130px;left: 230px;
+}
+.n{
+    list-style: none;
+    position: absolute;top: 130px;left: 300px; 
+
+}
+.i{
+    list-style: none;
+    position: absolute;top: 130px;left: 370px; 
+
+}
+.v{
+    list-style: none;
+    position: absolute;top: 130px;left: 440px; 
+ 
+}
+.s{
+    list-style: none;
+    position: absolute;top: 130px;left: 510px; 
+
+}
+.m{
+    list-style: none;
+    position: absolute;top: 130px;left: 600px; 
+
+}
+.f{
+    list-style: none;
+    position: absolute;top: 130px;left: 680px; 
+
+}
+  
+hr {
+	border: 0;
+	border-top: 1px solid #285fec;
+}
+p{
+    font-size: 15px;
+    color: rgb(80, 87, 85);
+    margin: 5px;
+  position: absolute;left: 230px;
+}
+.ins{
+    width: 30px;
+    height: 30px;
+    position: absolute;left: 230px;top: 210px;
+    cursor: pointer;
+}
+.um{
+    color: #000;
+    font-size: 16px;
+    position: absolute;left: 270px;top: 210px;
+    cursor: pointer;
+}
+.dois{
+    color: black;
+    font-size: 14px;
+    position: absolute;left: 270px;top: 230px;
+cursor: pointer;
+}
+.triangulo{
+    width: 10px;
+    height: 10px;
+    position: absolute;left: 428px;top: 230px;
+    cursor: pointer;
+
+}
+.traduzir{
+    color: #285fec;
+    font-size:14px ;
+    position: absolute;left: 440px;top: 230px;
+    cursor: pointer;
+
+}
+.três{
+    color: rgb(4, 46, 161);
+    font-size: 20px;
+    position: absolute;left: 270px;top: 250px;
+    cursor: pointer;
+   
+}
+.quatro{
+    font-size: 15PX;
+    color: black;
+    position: absolute;left: 270px;top: 290px;
+    margin-right: 500PX;
+}
+.cinco{
+    color: rgb(4, 46, 161);
+    font-size: 23px;
+    position: absolute;left:290px;top:360px;
+    cursor: pointer;
+}
+.Bem_vindo{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:290px;top: 395px;
+    margin-right: 500PX;
+
+}
+.seis{
+    color: rgb(4, 46, 161);
+    font-size: 23px;
+    position: absolute;left:290px;top:420px;
+    cursor: pointer;
+} 
+.Future{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:290px;top: 460px;
+    margin-right: 500PX;
+
+}
+.parte{
+    width: 372px;
+    height: 250px;
+    position: absolute;left:950px;top: 170px;
+    cursor: pointer;
+}
+
+
+.bloco2{
+    width: 372px;
+    height: 300px;
+    position: absolute;left:950px;top: 240px;
+    cursor: pointer;
+}
+.terms{
+    color: rgb(4, 46, 161);
+    font-size: 23px;
+    position: absolute;left:290px;top:490px;
+    cursor: pointer;
+}
+.terms2{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:290px;top: 530px;
+    margin-right: 500PX;
+
+}
+.site{
+    color: rgb(4, 46, 161);
+    font-size: 23px;
+    position: absolute;left:290px;top:560px;
+    cursor: pointer;
+}
+.site2{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:290px;top: 600px;
+    margin-right: 500PX;
+}
+.resultados{
+    color: rgb(4, 46, 161);
+    font-size: 15px;
+    position: absolute;left:290px;top:630px;
+    cursor: pointer;
+} 
+    .botão{
+        position: absolute;left:1226px;top:438px;
+        cursor:pointer;
+    }
+    .ind{
+        color: rgb(54, 101, 231);
+    font-size: 30px;
+    position: absolute;left:960px;top:460px;
+    cursor: pointer;
+} 
+.re{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    position: absolute;left:960px;top:500px;
+    cursor: pointer;   
+}
+.borda{
+    width:350px;
+    height:300px;
+    border:2px solid rgb(153, 143, 143);
+    padding:10px;
+    position: absolute;left:950px;top:223px;
+}
+.pa{
+    width: 40px;
+    height: 40px;
+    position: absolute;left:1270px;top:470px;
+
+}
+.borda2{
+    width:350px;
+    height:300px;
+    border:2px solid rgb(153, 143, 143);
+    padding:10px;
+    position: absolute;left:950px;top:544px;   
+}
+
+.texto{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin: 80px;
+    position: absolute;left:890px;top:480px;
+    cursor: pointer;
+}
+
+.Wikipédia{
+
+    color: rgb(54, 101, 231);
+    font-size: 15px;
+    margin: 80px;
+    position: absolute;left:1120px;top:565px;
+    cursor: pointer; 
+}
+
+.itens{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    position: absolute;left:970px;top:705px;
+    cursor: pointer; 
+
+}
+
+.ver{
+
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    position: absolute;left:1200px;top:708px;
+    cursor: pointer; 
+}
+    .tik{
+        width: 75px;
+    height: 75px;
+    position: absolute;left:965px;top: 750px;
+    border: solid 1px  ;
+ border-radius: 10px;
+    cursor: pointer;
+    }
+     
+    .Facebook{
+        width: 75px;
+        height: 75px;
+        position: absolute;left:1050px;top: 750px;
+        border: solid 1px  ;
+     border-radius: 10px;
+        cursor: pointer;
+    }
+        .twitter{
+            width: 75px;
+        height: 75px;
+        position: absolute;left:1140px;top: 750px;
+        border: solid 1px  ;
+     border-radius: 10px;
+        cursor: pointer;
+        }
+        .discord{
+            width: 75px;
+        height: 75px;
+        position: absolute;left:1230px;top: 750px;
+        border: solid 1px  ;
+     border-radius: 10px;
+        cursor: pointer;
+        }
+      .tikt{
+        position: absolute;left:965px;top:830px;
+cursor: pointer;
+color: #285fec;
+      }
+      .face{
+        position: absolute;left:1050px;top:830px;
+cursor: pointer;
+color: #285fec;
+      }
+      .tw{
+        position: absolute;left:1140px;top:830px;
+cursor: pointer;
+color: #285fec;
+      }
+      .disc{
+        position: absolute;left:1230px;top:830px;
+        cursor: pointer;
+color: #285fec;
+      }
+ .Feedback{
+    font-size: 13px;
+    position: absolute;left:1240px;top:870px;
+    cursor: pointer;
+ 
+ }   
+ .Play{
+    width: 40px;
+    height: 40px;
+    position: absolute;left: 230px;top: 705px;
+    cursor: pointer; 
+
+ }
+
+ .google_com{
+
+    color: #000;
+    font-size: 16px;
+    position: absolute;left: 280px;top: 707px;
+    cursor: pointer;
+   
+    
+ }
+.link1{
+    color: black;
+    font-size: 14px;
+    position: absolute;left: 280px;top: 725px;
+cursor: pointer;
+}
+.triangulo2{
+    width: 10px;
+    height: 10px;
+    position: absolute;left: 615px;top: 725px;
+    cursor: pointer;
+
+}
+.plays{
+    color:blue;
+    font-size:20px ;
+    position: absolute;left:230px;top:765px;
+    cursor: pointer;
+}
+.cont{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:230px;top: 800px;
+    margin-right: 500PX; 
+}
+.star{
+    width: 60px;
+    height: 60px;
+    position: absolute;left:230px;top: 817px;
+
+}
+.ava{
+        position: absolute;left:290px;top: 840px;
+        font-size: 15px;
+
+}
+ 
+.applelogo{
+    height: 35px;
+    width: 35px;
+    position: absolute;left: 230px;top:900px;
+    cursor: pointer; 
+
+}
+.apple_com{
+    color: #000;
+    font-size: 16px;
+    position: absolute;left: 270px;top:900px;
+    cursor: pointer;
+    
+}
+  .link3{
+    color: black;
+    font-size: 14px;
+    position: absolute;left: 270px;top: 920px;
+cursor: pointer;
+  }
+.InstagramnaAppStore{
+    color:blue;
+    font-size:20px ;
+    position: absolute;left:230px;top:950px;
+    cursor: pointer;
+}
+.text2{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:230px;top: 990px;
+    margin-right: 500PX; 
+}
+.star5{
+    width: 60px;
+    height: 60px;
+    position: absolute;left:230px;top: 1010px;  
+}
+.ava5{
+    position: absolute;left:290px;top: 1030px;
+        font-size: 15px;
+
+}
+.wk{
+    height: 33px;
+    width: 33px;
+    position: absolute;left: 230px;top:1090px;
+    cursor: pointer;  
+}
+.org{
+    color: #000;
+    font-size: 16px;
+    position: absolute;left: 270px;top:1090px;
+    cursor: pointer;  
+}
+.link6{
+    color: black;
+    font-size: 14px;
+    position: absolute;left: 270px;top: 1110px;
+cursor: pointer;
+}
+.triangulo5{
+    width: 10px;
+    height: 10px;
+    position: absolute;left: 523px;top: 1110px;
+    cursor: pointer;
+}
+.title5{
+    color:blue;
+    font-size:20px ;
+    position: absolute;left:230px;top:1140px;
+    cursor: pointer;
+}
+.text3{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:230px;top: 1170px;
+    margin-right: 500PX; 
+}
+.text4{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:230px;top: 1215px;
+    margin-right: 500PX;  
+    list-style: none;
+}
+.text5{
+    color: black;
+    font-size: 15PX;
+    position: absolute;left:550px;top: 1215px;
+    margin-right: 500PX;  
+    list-style: none;
+}
+
+.baixogoogle{
+    width: 150px;
+    height: 150px;
+    position: absolute; left:600px; top: 1300px;
+
+}
+.sequencia{
+    position: absolute; left:660px; top: 1420px;
+    display: flex;
+    list-style: none;
+    letter-spacing: .3rem;
+   cursor:pointer;
+   
+
+}
